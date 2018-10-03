@@ -1,0 +1,11 @@
+---
+
+- name: Instalador do Docker
+  hosts: docker
+  roles: 
+    - docker
+
+- name: ola mundo
+  shell: 'echo ola mundo'
+
+
